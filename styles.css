@@ -50,10 +50,14 @@ p {
 
 .menu-options {
   display: none;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   margin-bottom: 3rem;
+  max-height: 200px;
+}
+
 }
 
 .menu-options a {
