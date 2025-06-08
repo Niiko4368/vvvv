@@ -11,11 +11,12 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
-  background-image: url("ChatGPT Image Jun 8, 2025, 07_28_09 PM.png");
-  background-size: cover;       /* makes it cover the whole page */
-  background-position: center;  /* centers the image */
-  background-repeat: no-repeat; /* stops it from repeating */
+  background: 
+    linear-gradient(to bottom, #0f0f0f, #1a1a1a),
+    url("ChatGPT Image Jun 8, 2025, 07_28_09 PM.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   color: #f0f0f0;
   font-family: 'Space Grotesk', sans-serif;
@@ -27,6 +28,7 @@ body {
   border: 10px solid rgba(168, 85, 247, 0.5);
   box-sizing: border-box;
 }
+
 
 h1 {
   font-size: 3rem;
