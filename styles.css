@@ -15,7 +15,7 @@ body {
   align-items: center;
   padding: 2rem;
   overflow-x: hidden;
-  border: 10px solid #a855f7;
+  border: 10px solid rgba(168, 85, 247, 0.5);
   box-sizing: border-box;
 }
 
