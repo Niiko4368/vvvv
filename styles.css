@@ -58,8 +58,6 @@ p {
   max-height: 200px;
 }
 
-}
-
 .menu-options a {
   color: #ddd;
   text-decoration: none;
@@ -95,7 +93,7 @@ p {
     transform: translateY(120vh);
   }
 }
-.gallery {
+.gallery-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #ffcc80;
@@ -106,7 +104,7 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.gallery:hover {
+.gallery-button:hover {
   background-color: #ffa726;
 }
 .gallery {
