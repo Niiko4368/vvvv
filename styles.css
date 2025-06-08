@@ -7,6 +7,17 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  background-image: url('ChatGPT Image Jun 8, 2025, 07_28_09 PM.png');
+  background-size: cover;       /* makes it cover the whole page */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat; /* stops it from repeating */
+  height: 100vh;
+}
+
+
+body {
   background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
   color: #f0f0f0;
   font-family: 'Space Grotesk', sans-serif;
