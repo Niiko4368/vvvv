@@ -1,4 +1,4 @@
-document.querySelector('.menu').addEventListener('click', () => {
+document.querySelector('.menu')?.addEventListener('click', () => {
   const menuOptions = document.getElementById('menuOptions');
   menuOptions.style.display = (menuOptions.style.display === 'flex') ? 'none' : 'flex';
 });
@@ -12,11 +12,6 @@ for (let i = 0; i < 100; i++) {
   drop.style.opacity = Math.random();
   rain.appendChild(drop);
 }
-document.querySelector('.menu')?.addEventListener('click', () => {
-  const menuOptions = document.getElementById('menuOptions');
-  menuOptions.style.display = (menuOptions.style.display === 'flex') ? 'none' : 'flex';
-});
-
 
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
@@ -33,7 +28,6 @@ galleryImages.forEach(img => {
 closeBtn.addEventListener('click', () => {
   lightbox.style.display = 'none';
 });
-
 
 lightbox.addEventListener('click', (e) => {
   if (e.target === lightbox) {
