@@ -95,3 +95,18 @@ p {
     transform: translateY(120vh);
   }
 }
+.gallery {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc80;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.gallery:hover {
+  background-color: #ffa726;
+}
+
