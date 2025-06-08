@@ -129,7 +129,6 @@ p {
   transform: scale(1.05);
 }
 
-/* Lightbox styles */
 .lightbox {
   display: none;
   position: fixed;
