@@ -159,3 +159,19 @@ p {
   cursor: pointer;
 }
 
+.back-button {
+  padding: 10px 20px;
+  background-color: #ffcc80;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ffa726;
+}
