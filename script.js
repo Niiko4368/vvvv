@@ -12,13 +12,12 @@ for (let i = 0; i < 100; i++) {
   drop.style.opacity = Math.random();
   rain.appendChild(drop);
 }
-// Menu toggle (keep your existing code here)
 document.querySelector('.menu')?.addEventListener('click', () => {
   const menuOptions = document.getElementById('menuOptions');
   menuOptions.style.display = (menuOptions.style.display === 'flex') ? 'none' : 'flex';
 });
 
-// Lightbox functionality
+
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 const closeBtn = document.querySelector('.close');
@@ -35,7 +34,7 @@ closeBtn.addEventListener('click', () => {
   lightbox.style.display = 'none';
 });
 
-// Close lightbox when clicking outside image
+
 lightbox.addEventListener('click', (e) => {
   if (e.target === lightbox) {
     lightbox.style.display = 'none';
