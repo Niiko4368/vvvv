@@ -99,7 +99,13 @@ p {
   background: #87ceeb;
   background: #a855f7;
   box-shadow: 0 0 6px #a855f7;
-  animation: fall linear infinite;
+  animation: fall linear infinite, fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fall {
