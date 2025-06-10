@@ -222,7 +222,7 @@ p {
 }  
 
 
-button-container {
+.button-container {
   display: flex;
   gap: 15px;
 }  
