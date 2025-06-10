@@ -195,3 +195,18 @@ p {
 .back-button:hover {
   background-color: #ffa726;
 }
+
+}
+.videos-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc80;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.videos-button:hover {
+  background-color: #ffa726;
