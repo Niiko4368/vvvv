@@ -181,7 +181,7 @@ p {
 
 .back-button {
   display: inline-block;
-  padding: 0.625rem 1.25rem; /* 10px 20px converted to rem for scalability */
+  padding: 0.625rem 1.25rem;
   background-color: #ffcc80;
   color: #333;
   border: none;
@@ -191,15 +191,18 @@ p {
   cursor: pointer;
   margin: 1rem;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
 }
 
 .back-button:hover,
 .back-button:focus {
-  background-color: #ffa726;
-  color: #222;
+  background-color: #fb8c00;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   outline: none;
 }
+
 
 
 
