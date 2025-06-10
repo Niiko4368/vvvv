@@ -180,21 +180,27 @@ p {
 }
 
 .back-button {
-  padding: 10px 20px;
+  display: inline-block;
+  padding: 0.625rem 1.25rem; /* 10px 20px converted to rem for scalability */
   background-color: #ffcc80;
   color: #333;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   font-size: 1rem;
+  font-weight: 700;
   cursor: pointer;
-  font-weight: bold;
   margin: 1rem;
-  transition: background-color 0.3s ease;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.back-button:hover {
+.back-button:hover,
+.back-button:focus {
   background-color: #ffa726;
+  color: #222;
+  outline: none;
 }
+
 
 
 .videos-button {
